@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Sampleconsola
 {
-    internal class Casa
+    public class Casa
     {
+        public int Id { get; set; }
+        public string Description { get; set; } 
+
+        public String Location { get; set; }
+
     }
 }
